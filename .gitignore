@@ -1,0 +1,78 @@
+# Secrets: keep examples only
+.env
+.env.*
+!.env.example
+!.env.*.example
+.envrc
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.pypirc
+config.local.*
+*.local.json
+# Browser authentication and profiles (also add actual custom paths)
+.auth/
+auth/
+cookies/
+*cookie*.json
+*cookie*.txt
+*storage*state*.json
+*storage*State*.json
+*session*.json
+browser-data/
+browser-profile/
+browser-profiles/
+user-data/
+user_data/
+user_data_dir/
+chrome-profile/
+playwright/.auth/
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+*.egg-info/
+# Node
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+# Generated/runtime data
+logs/
+*.log
+data/
+exports/
+downloads/
+screenshots/
+recordings/
+videos/
+traces/
+test-results/
+playwright-report/
+*.har
+*.db
+*.sqlite*
+*.zip
+*.tar*
+backups/
+tmp/
+temp/
+dist/
+build/
+# Editor and OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+# Keep package.json, lock files, requirements and source code tracked.
